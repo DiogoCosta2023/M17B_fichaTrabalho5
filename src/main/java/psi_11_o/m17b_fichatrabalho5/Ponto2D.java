@@ -1,5 +1,8 @@
 package psi_11_o.m17b_fichatrabalho5;
-
+/**
+ * @version 1.1.0 13-2-2023
+ * @author Diogo Costa
+ */
 public class Ponto2D {    
     private int x;
     private int y;
@@ -14,8 +17,8 @@ public class Ponto2D {
     }
     /**
      * Construtor com parametros
-     * @param x 
-     * @param y
+     * @param x inicialização do X
+     * @param y inicialização do Y
      */
     public Ponto2D(int x, int y){
         this.x = x;
